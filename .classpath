@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="E:/SSM包/mybatis-3.4.6.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/mysql-connector-java-5.1.12.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-aop-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-aspects-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-beans-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-context-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-core-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-expression-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/spring-tx-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/SSM包/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="E:/SSM包/aopalliance-1.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="com.chap61.mapper.UsersMapper">
+  	  <!-- 实现用户登录 -->
+	   <select id="doLogin"  parameterType="com.chap61.domain.Users" resultType="Integer">
+	   		select count(*) from users where loginId=#{loginId} and loginPwd=#{loginPwd}
+	   </select>
+  </mapper>
